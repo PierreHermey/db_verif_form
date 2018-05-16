@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #272727;
+}
+form {
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    height: auto;
+    padding: 30px 50px;
+}
+
+fieldset {
+    border: none; 
+}
+
+h1 {
+    margin-bottom: 55px;
+    text-align: center;
+    font: normal 60px "Aladin", Helvetica, sans-serif;
+    text-shadow: 2px 2px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67);
+}
+
+label {
+    margin-left: 13%;
+    padding: 5px;
+}
+
+input {
+    width: 70%;
+    background-color: #272727;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    display: flex;
+    
+
+}
+.radio {
+    display: flex;
+    width: 50%;
+    margin-left: 20%;
+}
+
+[type="radio"]{
+    margin-top: 5px;
+}
+
+textarea{
+    width: 70%;
+    height: 100px;
+    background-color: #272727;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    display: flex;
+}
+
+button{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: red;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sports{
+    color: black;
+    text-align: left;
+    margin-left: 14%;
+    text-decoration: underline;
+}
+
+.checkbox{
+    display: flex;
+    width: 50%;
+    margin-left: -10px;
+}
+
+[type="checkbox"]{
+    margin-top: 5px;
+}
+
+select{
+    margin-bottom: 20px;
+}
